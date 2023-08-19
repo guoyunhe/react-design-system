@@ -45,9 +45,10 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
         <Button
           variant={location.pathname === '/' ? 'contained' : 'text'}
           color="inherit"
+          startIcon={<ComputerIcon />}
+          disableElevation
           component={NavLink}
           to="/"
-          startIcon={<ComputerIcon />}
         >
           {t('Desktop')}
         </Button>
@@ -55,9 +56,10 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
         <Button
           variant={location.pathname === '/mobile' ? 'contained' : 'text'}
           color="inherit"
+          startIcon={<SmartphoneIcon />}
+          disableElevation
           component={NavLink}
           to="/mobile"
-          startIcon={<SmartphoneIcon />}
         >
           {t('Mobile')}
         </Button>
