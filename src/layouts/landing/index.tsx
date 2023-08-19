@@ -1,7 +1,6 @@
 import { Box } from '@mui/material';
 import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from 'src/components/footer';
 import LeftNav from './LeftNav';
 import TopNav from './TopNav';
 
@@ -16,7 +15,6 @@ export default function LandingLayout() {
       <Box sx={{ flex: '1 1 auto' }}>
         <Outlet />
       </Box>
-      <Footer />
     </Box>
   );
 }
