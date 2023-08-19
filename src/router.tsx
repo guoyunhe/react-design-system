@@ -9,8 +9,8 @@ const AuthLayout = lazy(() => import('./layouts/auth'));
 const LandingLayout = lazy(() => import('./layouts/landing'));
 
 // landing pages
-const HomePage = lazy(() => import('./pages/home'));
-const AboutPage = lazy(() => import('./pages/about'));
+const DesktopPage = lazy(() => import('./pages/desktop'));
+const MobilePage = lazy(() => import('./pages/mobile'));
 const PrivacyPage = lazy(() => import('./pages/privacy'));
 const TermsPage = lazy(() => import('./pages/terms'));
 
@@ -38,11 +38,11 @@ const routes: RouteObject[] = [
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <DesktopPage />,
       },
       {
-        path: 'about',
-        element: <AboutPage />,
+        path: 'mobile',
+        element: <MobilePage />,
       },
       {
         path: 'privacy',

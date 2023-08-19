@@ -1,12 +1,13 @@
 import {
-  AutoAwesome as AutoAwesomeIcon,
+  Computer as ComputerIcon,
+  GitHub as GitHubIcon,
   Menu as MenuIcon,
-  SupportAgent as SupportAgentIcon,
+  Smartphone as SmartphoneIcon,
 } from '@mui/icons-material';
-import { AppBar, Box, Button, IconButton, Stack, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Button, IconButton, Toolbar, Typography } from '@mui/material';
 import { PaletteModeButton } from 'mui-palette-mode';
 import { useTranslation } from 'react-i18next';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 export interface TopNavProps {
   onMenuButtonClick: () => void;
@@ -14,6 +15,7 @@ export interface TopNavProps {
 
 export default function TopNav({ onMenuButtonClick }: TopNavProps) {
   const { t } = useTranslation();
+  const location = useLocation();
 
   return (
     <AppBar position="static" color="transparent" elevation={0}>
@@ -29,7 +31,7 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
         <Box
           component={NavLink}
           to="/"
-          style={{ display: 'flex', color: 'inherit', textDecoration: 'none' }}
+          sx={{ display: 'flex', color: 'inherit', textDecoration: 'none', mr: 3 }}
         >
           <Box
             component="img"
@@ -40,27 +42,36 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
             React Design System
           </Typography>
         </Box>
-        <Stack direction="row" ml={3} sx={{ display: { xs: 'none', sm: 'flex' } }}>
-          <Button
-            variant="text"
-            color="inherit"
-            component={NavLink}
-            to="/features"
-            startIcon={<AutoAwesomeIcon />}
-          >
-            {t('Features')}
-          </Button>
-          <Button
-            variant="text"
-            color="inherit"
-            startIcon={<SupportAgentIcon />}
-            component="a"
-            href="https://t.me/resume_maker_support"
-            target="_blank"
-          >
-            {t('Support')}
-          </Button>
-        </Stack>
+        <Button
+          variant={location.pathname === '/' ? 'contained' : 'text'}
+          color="inherit"
+          component={NavLink}
+          to="/"
+          startIcon={<ComputerIcon />}
+        >
+          {t('Desktop')}
+        </Button>
+
+        <Button
+          variant={location.pathname === '/mobile' ? 'contained' : 'text'}
+          color="inherit"
+          component={NavLink}
+          to="/mobile"
+          startIcon={<SmartphoneIcon />}
+        >
+          {t('Mobile')}
+        </Button>
+
+        <Button
+          variant="text"
+          color="inherit"
+          startIcon={<GitHubIcon />}
+          component="a"
+          href="https://github.com/guoyunhe/react-design-system"
+          target="_blank"
+        >
+          GitHub
+        </Button>
         <Box flex="1 1 auto" />
         <PaletteModeButton />
       </Toolbar>

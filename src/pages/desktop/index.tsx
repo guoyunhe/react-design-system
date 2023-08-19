@@ -1,10 +1,10 @@
 import { Box, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import FeatureCell from 'src/components/feature-cell';
 import designSystemListData from 'src/data/design-systems';
 import featureDefineListData from 'src/data/features';
-import FeatureCell from './FeatureCell';
 
-export default function HomePage() {
+export default function DesktopPage() {
   const { t } = useTranslation('home');
 
   return (
