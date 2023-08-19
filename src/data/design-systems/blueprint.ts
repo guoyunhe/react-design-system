@@ -1,30 +1,38 @@
 import Report from 'src/types/Report';
 
 const blueprintReport: Report = {
-  name: 'MUI Material',
-  website: '@mui/material',
+  name: 'Blueprint v5',
+  website: 'https://blueprintjs.com/',
+  mobile: false,
+  desktop: true,
   features: {
+    button: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+    },
+    buttonFilled: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+    },
+    buttonOutlined: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+    },
+    buttonText: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+      comment: '<Button minimal />',
+    },
+    buttonLink: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+    },
+    buttonLoading: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#core/components/buttons',
+    },
     icon: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
-      features: {
-        font: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#icon-font-icons',
-        },
-        svg: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#svgicon',
-        },
-        filled: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Filled',
-        },
-        outlined: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Outlined',
-        },
-      },
     },
   },
 };
