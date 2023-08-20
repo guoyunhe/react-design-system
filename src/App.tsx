@@ -1,4 +1,3 @@
-import { AuthProvider } from '@guoyunhe/react-auth';
 import { CircularProgress, CssBaseline } from '@mui/material';
 import axios from 'axios';
 import { DualThemeProvider } from 'mui-palette-mode';
@@ -29,10 +28,8 @@ export default function App() {
         }
       >
         <DualThemeProvider lightTheme={lightTheme} darkTheme={darkTheme} defaultPaletteMode="auto">
-          <AuthProvider>
-            <CssBaseline enableColorScheme />
-            <RouterProvider router={router} />
-          </AuthProvider>
+          <CssBaseline enableColorScheme />
+          <RouterProvider router={router} />
         </DualThemeProvider>
       </Suspense>
     </FetchConfigProvider>
