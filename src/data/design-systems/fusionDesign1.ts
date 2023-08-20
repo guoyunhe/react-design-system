@@ -6,6 +6,19 @@ const fusionDesign1: Report = {
   mobile: false,
   desktop: true,
   features: {
+    styleReset: {
+      available: true,
+    },
+    styleTreeShaking: {
+      available: false,
+    },
+    styleCssInJs: {
+      available: false,
+    },
+    dateDayjs: {
+      available: true,
+      document: 'https://fusion.design/pc/component/date-picker-2',
+    },
     button: {
       available: true,
       document: 'https://ant.design/components/button',

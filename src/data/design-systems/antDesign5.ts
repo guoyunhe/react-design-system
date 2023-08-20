@@ -6,6 +6,19 @@ const antDesign5: Report = {
   mobile: false,
   desktop: true,
   features: {
+    styleReset: {
+      available: true,
+      document: 'https://ant.design/docs/react/migration-v5',
+      comment: 'antd/dist/reset.css',
+    },
+    styleTreeShaking: {
+      available: true,
+      document: 'https://ant.design/docs/react/migration-v5',
+    },
+    styleCssInJs: {
+      available: true,
+      document: 'https://ant.design/docs/react/migration-v5',
+    },
     dateDayjs: {
       available: true,
       document: 'https://ant.design/docs/react/use-custom-date-library',
