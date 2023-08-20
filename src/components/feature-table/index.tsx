@@ -1,4 +1,12 @@
-import { Box, Link, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
+import {
+  Link,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+} from '@mui/material';
 import FeatureCell from 'src/components/feature-cell';
 import DesignSystem from 'src/types/DesignSystem';
 import FeatureDefine from 'src/types/FeatureDefine';
@@ -10,8 +18,8 @@ export interface FeatureTableProps {
 
 export default function FeatureTable({ designSystems, features }: FeatureTableProps) {
   return (
-    <Box>
-      <Table stickyHeader aria-label="sticky table">
+    <TableContainer sx={{ flex: '1 1 auto', overflow: 'auto' }}>
+      <Table stickyHeader size="small">
         <TableHead>
           <TableRow>
             <TableCell>Name</TableCell>
@@ -67,6 +75,6 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
           ))}
         </TableBody>
       </Table>
-    </Box>
+    </TableContainer>
   );
 }
