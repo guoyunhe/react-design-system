@@ -1,4 +1,4 @@
-import { Box, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
+import { Box, Link, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import FeatureCell from 'src/components/feature-cell';
 import FeatureDefine from 'src/types/FeatureDefine';
 import Report from 'src/types/Report';
@@ -16,7 +16,11 @@ export default function FeatureTable({ reports, features }: FeatureTableProps) {
           <TableRow>
             <TableCell>Name</TableCell>
             {reports.map((item) => (
-              <TableCell key={item.name}>{item.name}</TableCell>
+              <TableCell key={item.name}>
+                <Link href={item.website} target="_blank" rel="noreferrer">
+                  {item.name}
+                </Link>
+              </TableCell>
             ))}
           </TableRow>
         </TableHead>

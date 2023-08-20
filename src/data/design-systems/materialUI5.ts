@@ -1,8 +1,8 @@
 import Report from 'src/types/Report';
 
-const muiMaterial5: Report = {
-  name: 'MUI Material v5',
-  website: 'https://mui.com/',
+const materialUI5: Report = {
+  name: 'Material UI v5',
+  website: 'https://mui.com/material-ui/',
   mobile: true,
   desktop: true,
   features: {
@@ -54,4 +54,4 @@ const muiMaterial5: Report = {
   },
 };
 
-export default muiMaterial5;
+export default materialUI5;
