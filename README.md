@@ -29,7 +29,6 @@ npm run build
 - [react](https://reactjs.org/) - the user interface framework
 - [react-router](https://reactrouter.com/) - the routing library for single-page-application
 - [mui](https://mui.com/) - the design system and component library
-- [axios](https://axios-http.com/) - the http client to send API requests
 - [vitest](https://vitest.dev/) - the unit test runner
 - [testing-library](https://testing-library.com/) - the unit test toolkit for react
 
