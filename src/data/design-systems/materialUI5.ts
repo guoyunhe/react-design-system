@@ -18,6 +18,18 @@ const materialUI5: Report = {
       available: true,
       document: 'https://mui.com/material-ui/react-button/',
     },
+    dateDayjs: {
+      available: true,
+      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+    },
+    dateDateFns: {
+      available: true,
+      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+    },
+    dateLuxon: {
+      available: true,
+      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+    },
     button: {
       available: true,
       document: 'https://mui.com/material-ui/react-button/',

@@ -6,6 +6,18 @@ const antDesign5: Report = {
   mobile: false,
   desktop: true,
   features: {
+    dateDayjs: {
+      available: true,
+      document: 'https://ant.design/docs/react/use-custom-date-library',
+    },
+    dateDateFns: {
+      available: true,
+      document: 'https://ant.design/docs/react/use-custom-date-library',
+    },
+    dateLuxon: {
+      available: true,
+      document: 'https://ant.design/docs/react/use-custom-date-library',
+    },
     button: {
       available: true,
       document: 'https://ant.design/components/button',

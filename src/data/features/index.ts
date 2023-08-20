@@ -2,18 +2,33 @@ import FeatureDefine from 'src/types/FeatureDefine';
 
 const featureDefineListData: FeatureDefine[] = [
   {
-    name: 'Style Reset',
+    name: 'Style: reset',
     code: 'styleReset',
     weight: 10,
   },
   {
-    name: 'Style Tree Shaking',
+    name: 'Style: tree shaking',
     code: 'styleTreeShaking',
     weight: 10,
   },
   {
-    name: 'Style CSS-in-JS',
+    name: 'Style: css-in-js',
     code: 'styleCssInJs',
+    weight: 10,
+  },
+  {
+    name: 'Date: dayjs',
+    code: 'dateDayjs',
+    weight: 10,
+  },
+  {
+    name: 'Date: date-fns',
+    code: 'dateDateFns',
+    weight: 10,
+  },
+  {
+    name: 'Date: luxon',
+    code: 'dateLuxon',
     weight: 10,
   },
   {
