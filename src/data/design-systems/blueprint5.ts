@@ -15,6 +15,23 @@ const blueprint5: Report = {
     styleCssInJs: {
       available: false,
     },
+    iconSvgComponent: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#icons/loading-icons',
+    },
+    iconFont: {
+      available: true,
+      document: 'https://blueprintjs.com/docs/#icons/loading-icons',
+    },
+    iconOutlined: {
+      available: false,
+    },
+    iconFilled: {
+      available: false,
+    },
+    iconTwoTone: {
+      available: false,
+    },
     dateDayjs: { available: false },
     dateDateFns: {
       available: true,
