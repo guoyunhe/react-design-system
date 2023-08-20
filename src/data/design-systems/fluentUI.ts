@@ -17,59 +17,64 @@ const fluentUI: DesignSystem = {
     },
     styleReset: {
       available: true,
-      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-styling-components--page',
     },
     styleTreeShaking: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-styling-components--page',
     },
     styleCssInJs: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-styling-components--page',
     },
     iconCount: {
-      available: 2126,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: 1978,
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons-catalog--page',
     },
     iconSvgComponent: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      document: 'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons--page',
+    },
+    iconSvgSprite: {
+      available: true,
+      document: 'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons--page',
     },
     iconFont: {
       available: true,
-      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+      document: 'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons--page',
     },
     iconOutlined: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons-catalog--page',
     },
     iconFilled: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      document:
+        'https://react.fluentui.dev/?path=/docs/concepts-developer-icons-icons-catalog--page',
     },
     iconTwoTone: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     dateDayjs: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateDateFns: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateLuxon: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     button: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://react.fluentui.dev/?path=/docs/components-button-button--default',
     },
     buttonLoading: {
-      available: true,
-      document: 'https://mui.com/material-ui/react-button/#loading-button',
+      available: false,
     },
   },
 };
