@@ -19,6 +19,25 @@ const antDesign5: Report = {
       available: true,
       document: 'https://ant.design/docs/react/migration-v5',
     },
+    iconSvgComponent: {
+      available: true,
+      document: 'https://ant.design/components/icon',
+    },
+    iconFont: {
+      available: false,
+    },
+    iconOutlined: {
+      available: true,
+      document: 'https://ant.design/components/icon',
+    },
+    iconFilled: {
+      available: true,
+      document: 'https://ant.design/components/icon',
+    },
+    iconTwoTone: {
+      available: true,
+      document: 'https://ant.design/components/icon',
+    },
     dateDayjs: {
       available: true,
       document: 'https://ant.design/docs/react/use-custom-date-library',
@@ -53,11 +72,11 @@ const antDesign5: Report = {
         },
         filled: {
           available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Filled',
+          document: 'https://ant.design/components/icon?theme=Filled',
         },
         outlined: {
           available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Outlined',
+          document: 'https://ant.design/components/icon?theme=Outlined',
         },
       },
     },

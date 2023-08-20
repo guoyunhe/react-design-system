@@ -32,6 +32,21 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
+    name: 'Icon: outlined',
+    code: 'iconOutlined',
+    weight: 10,
+  },
+  {
+    name: 'Icon: filled',
+    code: 'iconFilled',
+    weight: 10,
+  },
+  {
+    name: 'Icon: two tone',
+    code: 'iconTwoTone',
+    weight: 10,
+  },
+  {
     name: 'Date: dayjs',
     code: 'dateDayjs',
     weight: 10,

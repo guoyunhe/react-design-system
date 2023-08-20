@@ -22,12 +22,21 @@ const materialUI5: Report = {
       available: true,
       document: 'https://mui.com/material-ui/material-icons/',
     },
-    iconSvgSprite: {
-      available: false,
-    },
     iconFont: {
       available: true,
       document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+    },
+    iconOutlined: {
+      available: true,
+      document: 'https://mui.com/material-ui/material-icons/',
+    },
+    iconFilled: {
+      available: true,
+      document: 'https://mui.com/material-ui/material-icons/',
+    },
+    iconTwoTone: {
+      available: true,
+      document: 'https://mui.com/material-ui/material-icons/',
     },
     dateDayjs: {
       available: true,

@@ -11,8 +11,33 @@ const bootstrap5: Report = {
       document: 'https://react-bootstrap.github.io/docs/getting-started/introduction#stylesheets',
     },
     styleTreeShaking: {
+      available: false,
+    },
+    styleCssInJs: {
+      available: false,
+    },
+    iconSvgComponent: {
       available: true,
-      document: 'https://react-bootstrap.github.io/docs/getting-started/introduction#stylesheets',
+      document: 'https://github.com/ismamz/react-bootstrap-icons',
+    },
+    iconSvgSprite: {
+      available: true,
+      document: 'https://icons.getbootstrap.com/#usage',
+    },
+    iconFont: {
+      available: true,
+      document: 'https://icons.getbootstrap.com/#usage',
+    },
+    iconOutlined: {
+      available: true,
+      document: 'https://icons.getbootstrap.com/',
+    },
+    iconFilled: {
+      available: true,
+      document: 'https://icons.getbootstrap.com/',
+    },
+    iconTwoTone: {
+      available: false,
     },
     button: {
       available: true,
