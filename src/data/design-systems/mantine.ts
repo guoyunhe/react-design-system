@@ -17,59 +17,51 @@ const mantine: DesignSystem = {
     },
     styleReset: {
       available: true,
-      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+      document: 'https://mantine.dev/pages/getting-started/',
     },
     styleTreeShaking: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://mantine.dev/pages/getting-started/',
     },
     styleCssInJs: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://mantine.dev/pages/getting-started/',
     },
     iconCount: {
-      available: 2126,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: 0,
     },
     iconSvgComponent: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFont: {
-      available: true,
-      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+      available: false,
     },
     iconOutlined: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFilled: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconTwoTone: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     dateDayjs: {
       available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      document: 'https://mantine.dev/dates/dates-provider/',
     },
     dateDateFns: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateLuxon: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     button: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://mantine.dev/core/button/',
     },
     buttonLoading: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/#loading-button',
+      document: 'https://mantine.dev/core/button/#loading-state',
     },
   },
 };
