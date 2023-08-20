@@ -3,9 +3,18 @@ import DesignSystem from 'src/types/DesignSystem';
 const blueprint5: DesignSystem = {
   name: 'Blueprint v5',
   website: 'https://blueprintjs.com/',
+  vendor: 'Palantir Technologies',
+  github: 'palantir/blueprint',
+  package: '@blueprintjs/core',
   mobile: false,
   desktop: true,
   features: {
+    react18: {
+      available: true,
+    },
+    typescript: {
+      available: true,
+    },
     styleReset: {
       available: false,
     },

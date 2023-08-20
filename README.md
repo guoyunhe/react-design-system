@@ -4,6 +4,12 @@ Objective benchmarks and comparsions for various React design systems.
 
 https://react-design-system.guoyunhe.me/
 
+## Collection Standard
+
+1. Open Source
+2. GitHub stars > 1k
+3. NPM downloads > 10k/week
+
 ## Get Started
 
 ### Local Development

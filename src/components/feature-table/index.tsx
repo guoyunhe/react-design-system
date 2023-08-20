@@ -25,6 +25,38 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
           </TableRow>
         </TableHead>
         <TableBody>
+          <TableRow>
+            <TableCell>Vendor</TableCell>
+            {designSystems.map((item) => (
+              <TableCell key={item.name}>{item.vendor}</TableCell>
+            ))}
+          </TableRow>
+          <TableRow>
+            <TableCell>GitHub Stars</TableCell>
+            {designSystems.map((item) => (
+              <TableCell key={item.name}>
+                {item.github && (
+                  <a href={`https://github.com/${item.github}`} target="_blank" rel="noreferrer">
+                    <img src={`https://img.shields.io/github/stars/${item.github}`} />
+                  </a>
+                )}
+              </TableCell>
+            ))}
+          </TableRow>
+          <TableRow>
+            <TableCell>NPM Downloads</TableCell>
+            {designSystems.map((item) => (
+              <TableCell key={item.name}>
+                <a
+                  href={`https://npmjs.com/package/${item.package}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={`https://img.shields.io/npm/dw/${item.package}`} />
+                </a>
+              </TableCell>
+            ))}
+          </TableRow>
           {features.map((fd) => (
             <TableRow key={fd.code} hover>
               <TableCell>{fd.name}</TableCell>

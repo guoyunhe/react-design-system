@@ -3,9 +3,18 @@ import DesignSystem from 'src/types/DesignSystem';
 const antDesign5: DesignSystem = {
   name: 'Ant Design v5',
   website: 'https://ant.design/',
+  vendor: 'Ant Group',
+  github: 'ant-design/ant-design',
+  package: 'antd',
   mobile: false,
   desktop: true,
   features: {
+    react18: {
+      available: true,
+    },
+    typescript: {
+      available: true,
+    },
     styleReset: {
       available: true,
       document: 'https://ant.design/docs/react/migration-v5',

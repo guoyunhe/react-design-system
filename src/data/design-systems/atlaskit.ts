@@ -1,67 +1,60 @@
 import DesignSystem from 'src/types/DesignSystem';
 
-const materialUI5: DesignSystem = {
-  name: 'Material UI v5',
-  website: 'https://mui.com/material-ui/',
-  vendor: 'Material UI SAS',
-  github: 'mui/material-ui',
-  package: '@mui/material',
+const atlaskit: DesignSystem = {
+  name: 'Atlaskit',
+  website: 'https://atlassian.design/',
+  vendor: 'Atlassian',
+  package: '@atlaskit/ds-lib',
   mobile: true,
   desktop: true,
   features: {
     react18: {
-      available: true,
+      available: false,
     },
     typescript: {
       available: true,
     },
     styleReset: {
       available: true,
-      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+      document: 'https://atlassian.design/components/css-reset/examples',
     },
     styleTreeShaking: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://atlassian.design/get-started/develop',
     },
     styleCssInJs: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://atlassian.design/get-started/develop',
     },
     iconCount: {
-      available: 2126,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: 370,
+      document: 'https://atlassian.design/components/icon/icon-explorer',
     },
     iconSvgComponent: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      document: 'https://atlassian.design/components/icon/examples',
     },
     iconFont: {
-      available: true,
-      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+      available: false,
     },
     iconOutlined: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFilled: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconTwoTone: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     dateDayjs: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateDateFns: {
       available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      document: 'https://atlassian.design/components/datetime-picker/examples',
     },
     dateLuxon: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     button: {
       available: true,
@@ -99,4 +92,4 @@ const materialUI5: DesignSystem = {
   },
 };
 
-export default materialUI5;
+export default atlaskit;

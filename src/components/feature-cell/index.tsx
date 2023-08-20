@@ -13,8 +13,8 @@ export default function FeatureCell({ feature, featureDefine }: FeatureCellProps
   const { min, max } = featureDefine || {};
   const color =
     available === true ||
-    (typeof available === 'number' && typeof min === 'number' && available > min) ||
-    (typeof available === 'number' && typeof max === 'number' && available < max)
+    (typeof available === 'number' && typeof min === 'number' && available >= min) ||
+    (typeof available === 'number' && typeof max === 'number' && available <= max)
       ? 'green'
       : 'red';
 

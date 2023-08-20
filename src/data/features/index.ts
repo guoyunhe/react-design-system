@@ -2,6 +2,16 @@ import FeatureDefine from 'src/types/FeatureDefine';
 
 const featureDefineListData: FeatureDefine[] = [
   {
+    name: 'React 18',
+    code: 'react18',
+    weight: 10,
+  },
+  {
+    name: 'TypeScript',
+    code: 'typescript',
+    weight: 10,
+  },
+  {
     name: 'Style: reset',
     code: 'styleReset',
     weight: 10,

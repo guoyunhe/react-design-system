@@ -3,9 +3,18 @@ import DesignSystem from 'src/types/DesignSystem';
 const bootstrap5: DesignSystem = {
   name: 'Bootstrap v5',
   website: 'https://react-bootstrap.github.io/',
+  vendor: 'React Bootstrap',
+  github: 'react-bootstrap/react-bootstrap',
+  package: 'react-bootstrap',
   mobile: true,
   desktop: true,
   features: {
+    react18: {
+      available: true,
+    },
+    typescript: {
+      available: true,
+    },
     styleReset: {
       available: true,
       document: 'https://react-bootstrap.github.io/docs/getting-started/introduction#stylesheets',

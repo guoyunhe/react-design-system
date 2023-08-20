@@ -3,9 +3,18 @@ import DesignSystem from 'src/types/DesignSystem';
 const fusionDesign1: DesignSystem = {
   name: 'Fusion Design v1',
   website: 'https://fusion.design/',
+  vendor: 'Alibaba Group',
+  github: 'alibaba-fusion/next',
+  package: '@alifd/next',
   mobile: false,
   desktop: true,
   features: {
+    react18: {
+      available: true,
+    },
+    typescript: {
+      available: true,
+    },
     styleReset: {
       available: true,
     },
