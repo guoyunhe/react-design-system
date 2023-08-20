@@ -3,7 +3,6 @@ import antDesign5 from './antDesign5';
 import atlaskit from './atlaskit';
 import blueprint5 from './blueprint5';
 import bootstrap5 from './bootstrap5';
-import fusionDesign1 from './fusionDesign1';
 import materialUI5 from './materialUI5';
 
 const designSystemListData: DesignSystem[] = [
@@ -12,7 +11,6 @@ const designSystemListData: DesignSystem[] = [
   bootstrap5,
   blueprint5,
   atlaskit,
-  fusionDesign1,
 ];
 
 export default designSystemListData;
