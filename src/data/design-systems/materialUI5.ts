@@ -18,6 +18,17 @@ const materialUI5: Report = {
       available: true,
       document: 'https://mui.com/material-ui/react-button/',
     },
+    iconSvgComponent: {
+      available: true,
+      document: 'https://mui.com/material-ui/material-icons/',
+    },
+    iconSvgSprite: {
+      available: false,
+    },
+    iconFont: {
+      available: true,
+      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+    },
     dateDayjs: {
       available: true,
       document: 'https://mui.com/x/react-date-pickers/getting-started/',

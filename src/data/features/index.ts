@@ -17,6 +17,21 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
+    name: 'Icon: SVG components',
+    code: 'iconSvgComponent',
+    weight: 10,
+  },
+  {
+    name: 'Icon: SVG sprites',
+    code: 'iconSvgSprite',
+    weight: 10,
+  },
+  {
+    name: 'Icon: font',
+    code: 'iconFont',
+    weight: 10,
+  },
+  {
     name: 'Date: dayjs',
     code: 'dateDayjs',
     weight: 10,
@@ -37,28 +52,23 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
-    name: 'Filled Button',
+    name: 'Button: filled',
     code: 'buttonFilled',
     weight: 10,
   },
   {
-    name: 'Outlined Button',
+    name: 'Button: outlined',
     code: 'buttonOutlined',
     weight: 10,
   },
   {
-    name: 'Text Button',
+    name: 'Button: text/flat',
     code: 'buttonText',
     weight: 10,
   },
   {
-    name: 'Loading Button',
+    name: 'Button: loading',
     code: 'buttonLoading',
-    weight: 10,
-  },
-  {
-    name: 'Icon',
-    code: 'icon',
     weight: 10,
   },
 ];
