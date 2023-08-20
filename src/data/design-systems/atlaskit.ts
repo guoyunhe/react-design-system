@@ -64,31 +64,6 @@ const atlaskit: DesignSystem = {
       available: true,
       document: 'https://mui.com/material-ui/react-button/#loading-button',
     },
-    icon: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
-      features: {
-        desktop: {
-          available: true,
-        },
-        font: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#icon-font-icons',
-        },
-        svg: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#svgicon',
-        },
-        filled: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Filled',
-        },
-        outlined: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Outlined',
-        },
-      },
-    },
   },
 };
 

@@ -76,9 +76,6 @@ const blueprint5: DesignSystem = {
       available: true,
       document: 'https://blueprintjs.com/docs/#core/components/buttons',
     },
-    icon: {
-      available: true,
-    },
   },
 };
 

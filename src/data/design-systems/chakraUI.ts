@@ -17,84 +17,49 @@ const chakraUI: DesignSystem = {
     },
     styleReset: {
       available: true,
-      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+      document: 'https://chakra-ui.com/docs/styled-system/global-styles',
     },
     styleTreeShaking: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://chakra-ui.com/getting-started',
     },
     styleCssInJs: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://chakra-ui.com/getting-started',
     },
     iconCount: {
-      available: 2126,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: 58,
+      document: 'https://chakra-ui.com/docs/components/icon/usage#all-icons',
     },
     iconSvgComponent: {
       available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
-    },
-    iconFont: {
-      available: true,
-      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+      document: 'https://chakra-ui.com/docs/components/icon/usage',
     },
     iconOutlined: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFilled: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconTwoTone: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     dateDayjs: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateDateFns: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateLuxon: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     button: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://chakra-ui.com/docs/components/button',
     },
     buttonLoading: {
       available: true,
       document: 'https://mui.com/material-ui/react-button/#loading-button',
-    },
-    icon: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
-      features: {
-        desktop: {
-          available: true,
-        },
-        font: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#icon-font-icons',
-        },
-        svg: {
-          available: true,
-          document: 'https://mui.com/material-ui/icons/#svgicon',
-        },
-        filled: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Filled',
-        },
-        outlined: {
-          available: true,
-          document: 'https://mui.com/material-ui/material-icons/?theme=Outlined',
-        },
-      },
     },
   },
 };
