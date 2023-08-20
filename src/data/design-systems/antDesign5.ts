@@ -19,6 +19,10 @@ const antDesign5: Report = {
       available: true,
       document: 'https://ant.design/docs/react/migration-v5',
     },
+    iconCount: {
+      available: 789,
+      document: 'https://ant.design/components/icon',
+    },
     iconSvgComponent: {
       available: true,
       document: 'https://ant.design/components/icon',

@@ -17,6 +17,12 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
+    name: 'Icon: count',
+    code: 'iconCount',
+    min: 200,
+    weight: 10,
+  },
+  {
     name: 'Icon: SVG components',
     code: 'iconSvgComponent',
     weight: 10,

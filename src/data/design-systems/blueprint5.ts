@@ -15,6 +15,10 @@ const blueprint5: Report = {
     styleCssInJs: {
       available: false,
     },
+    iconCount: {
+      available: 579,
+      document: 'https://blueprintjs.com/docs/#icons/icons-list',
+    },
     iconSvgComponent: {
       available: true,
       document: 'https://blueprintjs.com/docs/#icons/loading-icons',

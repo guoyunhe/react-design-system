@@ -16,6 +16,10 @@ const bootstrap5: Report = {
     styleCssInJs: {
       available: false,
     },
+    iconCount: {
+      available: 1285,
+      document: 'https://icons.getbootstrap.com/',
+    },
     iconSvgComponent: {
       available: true,
       document: 'https://github.com/ismamz/react-bootstrap-icons',

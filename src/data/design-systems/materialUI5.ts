@@ -18,6 +18,10 @@ const materialUI5: Report = {
       available: true,
       document: 'https://mui.com/material-ui/react-button/',
     },
+    iconCount: {
+      available: 2126,
+      document: 'https://mui.com/material-ui/material-icons/',
+    },
     iconSvgComponent: {
       available: true,
       document: 'https://mui.com/material-ui/material-icons/',

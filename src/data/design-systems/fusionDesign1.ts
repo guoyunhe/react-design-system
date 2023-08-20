@@ -15,9 +15,35 @@ const fusionDesign1: Report = {
     styleCssInJs: {
       available: false,
     },
+    iconCount: {
+      available: 56,
+      document: 'https://fusion.design/pc/component/icon',
+    },
+    iconSvgComponent: {
+      available: false,
+    },
+    iconFont: {
+      available: true,
+      document: 'https://fusion.design/pc/component/icon',
+    },
+    iconOutlined: {
+      available: false,
+    },
+    iconFilled: {
+      available: false,
+    },
+    iconTwoTone: {
+      available: false,
+    },
     dateDayjs: {
       available: true,
       document: 'https://fusion.design/pc/component/date-picker-2',
+    },
+    dateDateFns: {
+      available: false,
+    },
+    dateLuxon: {
+      available: false,
     },
     button: {
       available: true,

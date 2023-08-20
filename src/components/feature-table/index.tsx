@@ -29,7 +29,7 @@ export default function FeatureTable({ reports, features }: FeatureTableProps) {
             <TableRow key={fd.code} hover>
               <TableCell>{fd.name}</TableCell>
               {reports.map((item) => (
-                <FeatureCell key={item.name} feature={item.features[fd.code]} />
+                <FeatureCell key={item.name} feature={item.features[fd.code]} featureDefine={fd} />
               ))}
             </TableRow>
           ))}
