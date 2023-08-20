@@ -10,6 +10,7 @@ import {
 import FeatureCell from 'src/components/feature-cell';
 import DesignSystem from 'src/types/DesignSystem';
 import FeatureDefine from 'src/types/FeatureDefine';
+import StickyColumnCell from './StickyColumnCell';
 
 export interface FeatureTableProps {
   designSystems: DesignSystem[];
@@ -22,7 +23,7 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
       <Table stickyHeader size="small">
         <TableHead>
           <TableRow>
-            <TableCell>Name</TableCell>
+            <StickyColumnCell sx={{ top: 0, zIndex: 10 }}>Name</StickyColumnCell>
             {designSystems.map((item) => (
               <TableCell key={item.name}>
                 <Link href={item.website} target="_blank" rel="noreferrer">
@@ -34,13 +35,13 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
         </TableHead>
         <TableBody>
           <TableRow>
-            <TableCell>Vendor</TableCell>
+            <StickyColumnCell>Vendor</StickyColumnCell>
             {designSystems.map((item) => (
               <TableCell key={item.name}>{item.vendor}</TableCell>
             ))}
           </TableRow>
           <TableRow>
-            <TableCell>GitHub Stars</TableCell>
+            <StickyColumnCell>GitHub Stars</StickyColumnCell>
             {designSystems.map((item) => (
               <TableCell key={item.name}>
                 {item.github && (
@@ -52,7 +53,7 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
             ))}
           </TableRow>
           <TableRow>
-            <TableCell>NPM Downloads</TableCell>
+            <StickyColumnCell>NPM Downloads</StickyColumnCell>
             {designSystems.map((item) => (
               <TableCell key={item.name}>
                 <a
@@ -67,7 +68,7 @@ export default function FeatureTable({ designSystems, features }: FeatureTablePr
           </TableRow>
           {features.map((fd) => (
             <TableRow key={fd.code} hover>
-              <TableCell>{fd.name}</TableCell>
+              <StickyColumnCell>{fd.name}</StickyColumnCell>
               {designSystems.map((item) => (
                 <FeatureCell key={item.name} feature={item.features[fd.code]} featureDefine={fd} />
               ))}
