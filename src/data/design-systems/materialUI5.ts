@@ -1,6 +1,6 @@
-import Report from 'src/types/Report';
+import DesignSystem from 'src/types/DesignSystem';
 
-const materialUI5: Report = {
+const materialUI5: DesignSystem = {
   name: 'Material UI v5',
   website: 'https://mui.com/material-ui/',
   mobile: true,

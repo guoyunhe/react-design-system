@@ -1,6 +1,6 @@
-import Report from 'src/types/Report';
+import DesignSystem from 'src/types/DesignSystem';
 
-const antDesignMobile5: Report = {
+const antDesignMobile5: DesignSystem = {
   name: 'Ant Design Mobile v5',
   website: 'https://mobile.ant.design/',
   mobile: true,

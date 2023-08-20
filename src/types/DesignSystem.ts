@@ -1,6 +1,6 @@
 import Feature from './Feature';
 
-export default interface Report {
+export default interface DesignSystem {
   name: string;
   website: string;
   mobile: boolean;

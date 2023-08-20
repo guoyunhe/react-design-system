@@ -1,6 +1,6 @@
-import Report from 'src/types/Report';
+import DesignSystem from 'src/types/DesignSystem';
 
-const bootstrap5: Report = {
+const bootstrap5: DesignSystem = {
   name: 'Bootstrap v5',
   website: 'https://react-bootstrap.github.io/',
   mobile: true,

@@ -1,6 +1,6 @@
-import Report from 'src/types/Report';
+import DesignSystem from 'src/types/DesignSystem';
 
-const blueprint5: Report = {
+const blueprint5: DesignSystem = {
   name: 'Blueprint v5',
   website: 'https://blueprintjs.com/',
   mobile: false,

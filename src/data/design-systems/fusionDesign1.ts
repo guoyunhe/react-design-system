@@ -1,6 +1,6 @@
-import Report from 'src/types/Report';
+import DesignSystem from 'src/types/DesignSystem';
 
-const fusionDesign1: Report = {
+const fusionDesign1: DesignSystem = {
   name: 'Fusion Design v1',
   website: 'https://fusion.design/',
   mobile: false,

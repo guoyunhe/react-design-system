@@ -1,10 +1,10 @@
 import { Box, Link, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import FeatureCell from 'src/components/feature-cell';
+import DesignSystem from 'src/types/DesignSystem';
 import FeatureDefine from 'src/types/FeatureDefine';
-import Report from 'src/types/Report';
 
 export interface FeatureTableProps {
-  reports: Report[];
+  reports: DesignSystem[];
   features: FeatureDefine[];
 }
 
