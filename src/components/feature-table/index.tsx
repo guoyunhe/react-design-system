@@ -4,18 +4,18 @@ import DesignSystem from 'src/types/DesignSystem';
 import FeatureDefine from 'src/types/FeatureDefine';
 
 export interface FeatureTableProps {
-  reports: DesignSystem[];
+  designSystems: DesignSystem[];
   features: FeatureDefine[];
 }
 
-export default function FeatureTable({ reports, features }: FeatureTableProps) {
+export default function FeatureTable({ designSystems, features }: FeatureTableProps) {
   return (
     <Box>
       <Table stickyHeader aria-label="sticky table">
         <TableHead>
           <TableRow>
             <TableCell>Name</TableCell>
-            {reports.map((item) => (
+            {designSystems.map((item) => (
               <TableCell key={item.name}>
                 <Link href={item.website} target="_blank" rel="noreferrer">
                   {item.name}
@@ -28,7 +28,7 @@ export default function FeatureTable({ reports, features }: FeatureTableProps) {
           {features.map((fd) => (
             <TableRow key={fd.code} hover>
               <TableCell>{fd.name}</TableCell>
-              {reports.map((item) => (
+              {designSystems.map((item) => (
                 <FeatureCell key={item.name} feature={item.features[fd.code]} featureDefine={fd} />
               ))}
             </TableRow>
