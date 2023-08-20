@@ -1,31 +1,12 @@
-import { RequireAuth } from '@guoyunhe/react-auth';
 import { lazy } from 'react';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
 
 // layouts
-const AppLayout = lazy(() => import('./layouts/app'));
-const AdminLayout = lazy(() => import('./layouts/admin'));
-const AuthLayout = lazy(() => import('./layouts/auth'));
 const LandingLayout = lazy(() => import('./layouts/landing'));
 
 // landing pages
 const DesktopPage = lazy(() => import('./pages/desktop'));
 const MobilePage = lazy(() => import('./pages/mobile'));
-const PrivacyPage = lazy(() => import('./pages/privacy'));
-const TermsPage = lazy(() => import('./pages/terms'));
-
-// auth pages
-const LoginPage = lazy(() => import('./pages/login'));
-const RegisterPage = lazy(() => import('./pages/register'));
-
-// app pages
-const DashboardPage = lazy(() => import('./pages/dashboard'));
-const SettingsPage = lazy(() => import('./pages/settings'));
-
-// admin pages
-const AdminDashboardPage = lazy(() => import('./pages/admin-dashboard'));
-const AdminUserListPage = lazy(() => import('./pages/admin-user-list'));
-const AdminSettingsPage = lazy(() => import('./pages/admin-settings'));
 
 // error pages
 const NotFound = lazy(() => import('./pages/not-found'));
@@ -43,62 +24,6 @@ const routes: RouteObject[] = [
       {
         path: 'mobile',
         element: <MobilePage />,
-      },
-      {
-        path: 'privacy',
-        element: <PrivacyPage />,
-      },
-      {
-        path: 'terms',
-        element: <TermsPage />,
-      },
-    ],
-  },
-  {
-    path: '/',
-    element: <AuthLayout />,
-    children: [
-      {
-        path: 'login',
-        element: <LoginPage />,
-      },
-      {
-        path: 'register',
-        element: <RegisterPage />,
-      },
-    ],
-  },
-  {
-    path: '/app',
-    element: (
-      <RequireAuth>
-        <AppLayout />
-      </RequireAuth>
-    ),
-    children: [
-      { index: true, element: <DashboardPage /> },
-      { path: 'settings', element: <SettingsPage /> },
-    ],
-  },
-  {
-    path: 'admin',
-    element: (
-      <RequireAuth>
-        <AdminLayout />
-      </RequireAuth>
-    ),
-    children: [
-      {
-        index: true,
-        element: <AdminDashboardPage />,
-      },
-      {
-        path: 'users',
-        element: <AdminUserListPage />,
-      },
-      {
-        path: 'settings',
-        element: <AdminSettingsPage />,
       },
     ],
   },

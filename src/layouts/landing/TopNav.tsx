@@ -1,33 +1,18 @@
 import {
   Computer as ComputerIcon,
   GitHub as GitHubIcon,
-  Menu as MenuIcon,
   Smartphone as SmartphoneIcon,
 } from '@mui/icons-material';
-import { AppBar, Box, Button, IconButton, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Button, Toolbar, Typography } from '@mui/material';
 import { PaletteModeButton } from 'mui-palette-mode';
-import { useTranslation } from 'react-i18next';
 import { NavLink, useLocation } from 'react-router-dom';
 
-export interface TopNavProps {
-  onMenuButtonClick: () => void;
-}
-
-export default function TopNav({ onMenuButtonClick }: TopNavProps) {
-  const { t } = useTranslation();
+export default function TopNav() {
   const location = useLocation();
 
   return (
     <AppBar position="static" color="transparent" elevation={0}>
       <Toolbar>
-        <IconButton
-          color="inherit"
-          edge="start"
-          onClick={onMenuButtonClick}
-          sx={{ display: { sm: 'none' } }}
-        >
-          <MenuIcon />
-        </IconButton>
         <Box
           component={NavLink}
           to="/"
@@ -50,7 +35,7 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
           component={NavLink}
           to="/"
         >
-          {t('Desktop')}
+          Desktop
         </Button>
 
         <Button
@@ -61,7 +46,7 @@ export default function TopNav({ onMenuButtonClick }: TopNavProps) {
           component={NavLink}
           to="/mobile"
         >
-          {t('Mobile')}
+          Mobile
         </Button>
 
         <Button
