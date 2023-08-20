@@ -27,6 +27,11 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
+    name: 'Style: theming',
+    code: 'styleTheming',
+    weight: 10,
+  },
+  {
     name: 'Icon: count',
     code: 'iconCount',
     min: 200,
