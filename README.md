@@ -7,8 +7,7 @@ https://react-design-system.guoyunhe.me/
 ## Collection Standard
 
 1. Open Source
-2. GitHub stars > 1k
-3. NPM downloads > 10k/week
+2. NPM downloads > 100k/week
 
 ## Get Started
 
