@@ -9,7 +9,19 @@ export interface FeatureCellProps {
 export default function FeatureCell({ feature }: FeatureCellProps) {
   return (
     <TableCell>
-      {feature?.available ? <Check color="success" /> : <Close color="error" />}
+      {feature?.available ? (
+        <>
+          {feature.document ? (
+            <a href={feature.document} target="_blank" rel="noreferrer">
+              <Check color="success" />
+            </a>
+          ) : (
+            <Check color="success" />
+          )}
+        </>
+      ) : (
+        <Close color="error" />
+      )}
     </TableCell>
   );
 }

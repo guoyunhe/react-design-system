@@ -2,6 +2,21 @@ import FeatureDefine from 'src/types/FeatureDefine';
 
 const featureDefineListData: FeatureDefine[] = [
   {
+    name: 'Style Reset',
+    code: 'styleReset',
+    weight: 10,
+  },
+  {
+    name: 'Style Tree Shaking',
+    code: 'styleTreeShaking',
+    weight: 10,
+  },
+  {
+    name: 'Style CSS-in-JS',
+    code: 'styleCssInJs',
+    weight: 10,
+  },
+  {
     name: 'Button',
     code: 'button',
     weight: 10,

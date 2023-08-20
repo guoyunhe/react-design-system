@@ -1,8 +1,8 @@
 import Report from 'src/types/Report';
 
-const antDesign5: Report = {
-  name: 'Ant Design v5',
-  website: 'https://ant.design/',
+const fusionDesign1: Report = {
+  name: 'Fusion Design v1',
+  website: 'https://fusion.design/',
   mobile: false,
   desktop: true,
   features: {
@@ -39,4 +39,4 @@ const antDesign5: Report = {
   },
 };
 
-export default antDesign5;
+export default fusionDesign1;

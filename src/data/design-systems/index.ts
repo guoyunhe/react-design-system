@@ -1,8 +1,9 @@
 import Report from 'src/types/Report';
-import antDesign5Report from './antDesign5';
-import blueprintReport from './blueprint';
-import muiMaterial5Report from './muiMaterial5';
+import antDesign5 from './antDesign5';
+import blueprint5 from './blueprint5';
+import fusionDesign1 from './fusionDesign1';
+import muiMaterial5 from './muiMaterial5';
 
-const designSystemListData: Report[] = [muiMaterial5Report, antDesign5Report, blueprintReport];
+const designSystemListData: Report[] = [muiMaterial5, antDesign5, blueprint5, fusionDesign1];
 
 export default designSystemListData;

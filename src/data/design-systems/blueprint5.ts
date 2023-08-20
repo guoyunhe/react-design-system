@@ -1,6 +1,6 @@
 import Report from 'src/types/Report';
 
-const blueprintReport: Report = {
+const blueprint5: Report = {
   name: 'Blueprint v5',
   website: 'https://blueprintjs.com/',
   mobile: false,
@@ -37,4 +37,4 @@ const blueprintReport: Report = {
   },
 };
 
-export default blueprintReport;
+export default blueprint5;

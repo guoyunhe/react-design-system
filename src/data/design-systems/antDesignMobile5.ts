@@ -1,6 +1,6 @@
 import Report from 'src/types/Report';
 
-const antDesignMobile5Report: Report = {
+const antDesignMobile5: Report = {
   name: 'Ant Design Mobile v5',
   website: 'https://mobile.ant.design/',
   mobile: true,
@@ -34,4 +34,4 @@ const antDesignMobile5Report: Report = {
   },
 };
 
-export default antDesignMobile5Report;
+export default antDesignMobile5;

@@ -1,11 +1,23 @@
 import Report from 'src/types/Report';
 
-const muiMaterial5Report: Report = {
+const muiMaterial5: Report = {
   name: 'MUI Material v5',
   website: 'https://mui.com/',
   mobile: true,
   desktop: true,
   features: {
+    styleReset: {
+      available: true,
+      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+    },
+    styleTreeShaking: {
+      available: true,
+      document: 'https://mui.com/material-ui/react-button/',
+    },
+    styleCssInJs: {
+      available: true,
+      document: 'https://mui.com/material-ui/react-button/',
+    },
     button: {
       available: true,
       document: 'https://mui.com/material-ui/react-button/',
@@ -42,4 +54,4 @@ const muiMaterial5Report: Report = {
   },
 };
 
-export default muiMaterial5Report;
+export default muiMaterial5;

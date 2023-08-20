@@ -1,7 +1,7 @@
 import Report from 'src/types/Report';
-import antDesignMobile5Report from './antDesignMobile5';
-import muiMaterial5Report from './muiMaterial5';
+import antDesignMobile5 from './antDesignMobile5';
+import muiMaterial5 from './muiMaterial5';
 
-const mobileDesignSystemListData: Report[] = [muiMaterial5Report, antDesignMobile5Report];
+const mobileDesignSystemListData: Report[] = [muiMaterial5, antDesignMobile5];
 
 export default mobileDesignSystemListData;
