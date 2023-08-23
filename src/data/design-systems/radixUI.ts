@@ -17,59 +17,51 @@ const radixUI: DesignSystem = {
     },
     styleReset: {
       available: true,
-      document: 'https://mui.com/material-ui/getting-started/usage/#cssbaseline',
+      document: 'https://www.radix-ui.com/themes/docs/overview/getting-started',
+    },
+    styleCssVars: {
+      available: true,
+      document: 'https://www.radix-ui.com/themes/docs/theme/token-reference',
     },
     styleTreeShaking: {
-      available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      available: false,
     },
     styleCssInJs: {
-      available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      available: false,
     },
     iconCount: {
-      available: 2126,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconSvgComponent: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFont: {
-      available: true,
-      document: 'https://mui.com/material-ui/icons/#icon-font-icons',
+      available: false,
     },
     iconOutlined: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconFilled: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     iconTwoTone: {
-      available: true,
-      document: 'https://mui.com/material-ui/material-icons/',
+      available: false,
     },
     dateDayjs: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateDateFns: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     dateLuxon: {
-      available: true,
-      document: 'https://mui.com/x/react-date-pickers/getting-started/',
+      available: false,
     },
     button: {
       available: true,
-      document: 'https://mui.com/material-ui/react-button/',
+      document: 'https://www.radix-ui.com/themes/docs/components/button',
     },
     buttonLoading: {
-      available: true,
-      document: 'https://mui.com/material-ui/react-button/#loading-button',
+      available: false,
     },
   },
 };

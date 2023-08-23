@@ -17,6 +17,11 @@ const featureDefineListData: FeatureDefine[] = [
     weight: 10,
   },
   {
+    name: 'Style: CSS variables',
+    code: 'styleCssVars',
+    weight: 10,
+  },
+  {
     name: 'Style: tree shaking',
     code: 'styleTreeShaking',
     weight: 10,

@@ -28,7 +28,7 @@ const mantine: DesignSystem = {
       document: 'https://mantine.dev/pages/getting-started/',
     },
     iconCount: {
-      available: 0,
+      available: false,
     },
     iconSvgComponent: {
       available: false,
